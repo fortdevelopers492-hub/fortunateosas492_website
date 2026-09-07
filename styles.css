@@ -594,7 +594,7 @@ footer {
   }
 
   .nav-links.active {
-    max-height: 350px;
+    max-height: 500px;
   }
 
   .nav-links a {
