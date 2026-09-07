@@ -1,23 +1,18 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // 1. Hide Loader (Hides on page load or after a max 5-second timeout)
+  // 1. Hide Loader (Forces the loader to display for exactly 5 seconds)
   const loader = document.getElementById("loader");
-  
+
   if (loader) {
-    const hideLoader = () => {
-      if (!loader.classList.contains("hidden")) {
-        loader.classList.add("hidden");
-      }
-    };
+      const hideLoader = () => {
+          if (!loader.classList.contains("hidden")) {
+              loader.classList.add("hidden");
+          }
+      };
 
-    // Fallback: Force hide after 5 seconds
-    const maxTimeout = setTimeout(hideLoader, 5000);
-
-    // Normal behavior: Hide when page assets finish loading
-    window.addEventListener("load", () => {
-      clearTimeout(maxTimeout); // Clear the fallback timer
-      setTimeout(hideLoader, 400); // Optional slight delay for smooth transition
-    });
+      // Force hide after exactly 5000 milliseconds (5 seconds)
+      setTimeout(hideLoader, 3000);
   }
+
 
   // 2. Mobile Navigation Hamburger Menu Toggle
   const hamburger = document.querySelector(".hamburger");
