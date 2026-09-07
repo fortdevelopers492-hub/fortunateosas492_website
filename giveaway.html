@@ -573,9 +573,9 @@
                 copyBtn.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
                 setTimeout(() => {
                     copyBtn.innerHTML = `<i class="fa-regular fa-copy"></i> Copy Snippet`;
-                }, 2500);
+                }, 4000);
             }).catch(() => {
-                alert("Failed to copy code snippet. Please copy manually.");
+                showTopRightToast("Failed to copy code snippet. Please copy manually.", "error");
             });
         }
 
@@ -604,6 +604,55 @@
 
             // Reset form
             document.getElementById('giveawayForm').reset();
+        }
+
+        /**
+         * Displays a custom animated toast notification from top-right.
+         * @param {string} message - Text content of the alert.
+         * @param {'success'|'error'|'info'} type - Theme flavor (default: 'success').
+         * @param {number} durationMs - Display duration before sliding out (default: 3500ms).
+         */
+        function showTopRightToast(message, type = 'success', durationMs = 3500) {
+            // 1. Ensure the global container exists on the DOM
+            let container = document.getElementById('toast-container');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'toast-container';
+                document.body.appendChild(container);
+            }
+
+            // 2. Create the toast element
+            const toast = document.createElement('div');
+            toast.className = `toast-notification toast-${type}`;
+            
+            // Add text message + manual close button
+            toast.innerHTML = `
+                <span>${message}</span>
+                <button class="toast-close-btn" aria-label="Close notification">&times;</button>
+            `;
+
+            container.appendChild(toast);
+
+            // 3. Trigger entry animation in next animation frame
+            requestAnimationFrame(() => {
+                toast.classList.add('toast-show');
+            });
+
+            // Helper for graceful exit removal
+            const dismissToast = () => {
+                toast.classList.remove('toast-show');
+                toast.addEventListener('transitionend', () => {
+                    toast.remove();
+                }, { once: true });
+            };
+
+            // Manual close trigger on button click
+            toast.querySelector('.toast-close-btn').addEventListener('click', dismissToast);
+
+            // Auto dismiss timer
+            if (durationMs > 0) {
+                setTimeout(dismissToast, durationMs);
+            }
         }
     </script>
 </body>

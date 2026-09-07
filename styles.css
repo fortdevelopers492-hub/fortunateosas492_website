@@ -604,3 +604,29 @@ footer {
     text-align: center;
   }
 }
+
+.ad-media-container {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  background-color: #000;
+}
+
+.ad-media-content {
+  width: 100%;
+  height: auto;
+  max-height: 480px;
+  object-fit: contain;
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.margin-top-xs { margin-top: 6px; }
+.margin-top-sm { margin-top: 12px; }
+.margin-top-md { margin-top: 25px; }
