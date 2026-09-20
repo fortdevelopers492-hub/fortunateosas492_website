@@ -41,32 +41,54 @@ document.addEventListener("DOMContentLoaded", () => {
 
   sections.forEach((section) => sectionObserver.observe(section));
 
-  // 4. Lightbox Image Modal Logic
+// 4. Lightbox Image Modal Logic (Gallery Only)
   const lightboxModal = document.getElementById("lightbox-modal");
   const closeLightboxBtn = document.getElementById("close-lightbox-btn");
   const lightboxImg = document.getElementById("lightbox-img");
   const lightboxCaption = document.getElementById("lightbox-caption");
 
-  document.querySelectorAll(".gallery-item img").forEach((img) => {
-    img.addEventListener("click", () => {
-      lightboxImg.src = img.src;
-      lightboxCaption.textContent = img.alt || "Fortunate Osas Gallery";
-      lightboxModal.classList.add("active");
-      document.body.classList.add("modal-open");
+  const openModal = (imageSrc, captionText) => {
+    lightboxImg.src = imageSrc;
+    lightboxCaption.textContent = captionText;
+    lightboxModal.classList.add("active");
+    lightboxModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
+  };
+
+  const closeModal = () => {
+    lightboxModal.classList.remove("active");
+    lightboxModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+  };
+
+  // Attach click listener only to gallery items
+  document.querySelectorAll(".gallery-item").forEach((item) => {
+    item.addEventListener("click", () => {
+      const img = item.querySelector("img");
+      const overlayText = item.querySelector(".gallery-overlay span")?.textContent;
+      
+      if (img) {
+        // Fallback to alt text if overlay span text isn't found
+        const title = overlayText || img.alt || "Gallery Image";
+        openModal(img.currentSrc || img.src, title);
+      }
     });
   });
 
+  // Close triggers
   if (closeLightboxBtn) {
-    closeLightboxBtn.addEventListener("click", () => {
-      lightboxModal.classList.remove("active");
-      document.body.classList.remove("modal-open");
-    });
+    closeLightboxBtn.addEventListener("click", closeModal);
   }
+
+  lightboxModal.addEventListener("click", (e) => {
+    if (e.target === lightboxModal) {
+      closeModal();
+    }
+  });
 
   window.addEventListener("keydown", (e) => {
     if (e.key === "Escape" && lightboxModal.classList.contains("active")) {
-      lightboxModal.classList.remove("active");
-      document.body.classList.remove("modal-open");
+      closeModal();
     }
   });
 
@@ -96,6 +118,8 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("fort_last_rendered_flyer", currentFlyer);
   }
 });
+
+
 
 /**
  * Displays a custom animated toast notification from top-right.

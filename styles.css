@@ -489,7 +489,7 @@ h2::after {
   text-decoration: underline;
 }
 
-/* --- Lightbox Modal --- */
+/* --- Lightbox Modal Overlay --- */
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -497,7 +497,7 @@ h2::after {
   z-index: 10000;
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.35s ease, visibility 0.35s ease;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -511,7 +511,7 @@ h2::after {
 }
 
 body.modal-open {
-  overflow: hidden;
+  overflow: hidden; /* Prevents scrolling background while viewing image */
 }
 
 .lightbox-overlay img {
@@ -519,17 +519,20 @@ body.modal-open {
   max-height: 80vh;
   border-radius: 8px;
   object-fit: contain;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
 
 #lightbox-caption {
   color: #ffffff;
   margin-top: 15px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-align: center;
 }
 
 .close-btn {
   position: fixed;
-  top: 20px;
+  top: 25px;
   right: 25px;
   background: var(--primary-blue);
   color: #ffffff;
@@ -539,6 +542,15 @@ body.modal-open {
   height: 45px;
   border-radius: 50%;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10001;
+  transition: transform 0.2s ease;
+}
+
+.close-btn:hover {
+  transform: scale(1.1);
 }
 
 /* --- Footer --- */
