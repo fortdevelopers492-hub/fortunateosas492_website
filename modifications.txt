@@ -1,0 +1,713 @@
+Anywhere clicked outside the form, rulebox, snippet generated modal, social grid and all buttons should trigger a smart link ad.
+
+Also add a place under the third sponsored banner that shows the facebook, tittok and instagram social media pages like the way it is shown in the attached file. But it should indicate that one can check giveway posts on these platforms and stand a chance to win in either three of them. It should be stated that the prizes are awarded distinctly to each social media platform. It should state that different snippets are generated for different platforms on different websites which can be opened through the links below.
+    <!-- Social Media Section --> 
+    <section id="socials" class="scroll-section">
+      <div class="container">
+        <h2>Connect With Me</h2>
+        <p>Follow my personal and professional updates across social platforms.</p>
+        
+        <div class="social-grid">
+          <!-- Facebook Handle -->
+          <a href="https://facebook.com/fortunateosas492" target="_blank" rel="noopener noreferrer" class="social-card fb">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+            <div class="social-info">
+              <h3>Facebook</h3>
+              <p>@fortunateosas492</p>
+            </div>
+          </a>
+
+          <!-- Instagram Handle -->
+          <a href="https://instagram.com/fortunateosas492" target="_blank" rel="noopener noreferrer" class="social-card ig">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+            <div class="social-info">
+              <h3>Instagram</h3>
+              <p>@fortunateosas492</p>
+            </div>
+          </a>
+
+          <!-- TikTok Handle -->
+          <a href="https://tiktok.com/@fortunateosas_492" target="_blank" rel="noopener noreferrer" class="social-card tt">
+            <svg class="social-icon" viewBox="0 0 24 24">
+              <path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.82.56-1.36 1.47-1.41 2.47-.09 1.17.43 2.36 1.35 3.05.86.66 2.03.88 3.07.57 1.05-.29 1.93-1.09 2.29-2.13.23-.65.33-1.36.33-2.06V.02z"/>
+            </svg>
+            <div class="social-info">
+              <h3>TikTok</h3>
+              <p>@fortunateosas_492</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+When the copy button is clicked there should be a smart link ad triggered 5s after
+
+
+GIVE ME THE FULL UPDATED VERSION OF THIS CODE TO IMPLEMENT MY MODIFICATIONS:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortunate Osas | ₦20,000 Holiday Cash Giveaway</title>
+    
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- MONETAG GLOBAL AUTO-ADS / POPUP SNIPPET -->
+    <!-- Paste your Monetag In-Page Push or Vignette tag here -->
+    <script>
+        // Example: Monetag global site tag script
+    </script>
+
+    <style>
+        :root {
+            --bg-color: #0f172a;       
+            --card-bg: #1e293b;        
+            --accent-color: #3b82f6;   
+            --text-main: #f8fafc;      
+            --text-muted: #94a3b8;     
+            --success-green: #10b981;  
+            --danger-red: #ef4444;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px 10px;
+        }
+
+        /* --- Full Screen Modal Overlays --- */
+        .full-ad-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(15, 23, 42, 0.98);
+            z-index: 99999;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(15, 23, 42, 0.95);
+            z-index: 100000;
+            display: none;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .full-ad-container, .modal-container {
+            background: var(--card-bg);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 16px;
+            padding: 30px;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            position: relative;
+            text-align: center;
+        }
+
+        .skip-btn {
+            background: var(--accent-color);
+            color: var(--text-main);
+            border: none;
+            padding: 10px 24px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .skip-btn:hover {
+            background: #2563eb;
+        }
+
+        .ad-fallback-box {
+            display: none;
+            padding: 20px;
+            border: 2px dashed var(--danger-red);
+            border-radius: 12px;
+            background: rgba(239, 68, 68, 0.1);
+            margin-bottom: 15px;
+        }
+
+        .ad-fallback-box h2 {
+            color: var(--danger-red);
+            font-size: 1.3rem;
+            margin-bottom: 8px;
+        }
+
+        /* --- Snippet Box & Actions Styling --- */
+        .snippet-card {
+            background: rgba(15, 23, 42, 0.8);
+            border: 1px solid var(--accent-color);
+            border-radius: 12px;
+            padding: 20px;
+            text-align: left;
+            font-family: monospace, sans-serif;
+            font-size: 0.95rem;
+            color: #38bdf8;
+            margin: 20px 0;
+            white-space: pre-wrap;
+            word-break: break-all;
+        }
+
+        .modal-action-btns {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+
+        .action-btn {
+            flex: 1;
+            min-width: 140px;
+            padding: 12px 18px;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            text-decoration: none;
+        }
+
+        .copy-btn {
+            background: var(--success-green);
+            color: #ffffff;
+        }
+
+        .copy-btn:hover {
+            background: #059669;
+        }
+
+        .home-btn {
+            background: var(--accent-color);
+            color: #ffffff;
+        }
+
+        .home-btn:hover {
+            background: #2563eb;
+        }
+
+        /* --- Main Layout Container --- */
+        .container {
+            width: 100%;
+            max-width: 680px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            padding: 35px 25px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .logo-area {
+            font-weight: 700;
+            font-size: 1.6rem;
+            color: var(--text-main);
+            margin-bottom: 15px;
+            letter-spacing: 1px;
+        }
+
+        .logo-area span {
+            color: var(--accent-color);
+        }
+
+        h1 {
+            font-size: 2.1rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+            color: var(--text-main);
+        }
+
+        .prize-tag {
+            display: inline-block;
+            background: rgba(16, 185, 129, 0.1);
+            color: var(--success-green);
+            padding: 8px 22px;
+            border-radius: 50px;
+            font-weight: 600;
+            font-size: 1.3rem;
+            margin-bottom: 20px;
+            border: 1px solid rgba(16, 185, 129, 0.2);
+        }
+
+        /* --- Monetag Ad Slots Styling --- */
+        .monetag-ad-wrapper {
+            background: rgba(15, 23, 42, 0.5);
+            border: 1px dashed rgba(59, 130, 246, 0.4);
+            border-radius: 10px;
+            padding: 15px;
+            margin: 25px 0;
+            min-height: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ad-label {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+        }
+
+        /* --- Visual Frames (Cash & Gifts Display) --- */
+        .section-title {
+            font-size: 1.2rem;
+            text-align: left;
+            margin: 25px 0 15px 0;
+            color: var(--text-main);
+            border-left: 4px solid var(--accent-color);
+            padding-left: 10px;
+        }
+
+        .media-frame-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            margin-bottom: 25px;
+        }
+
+        .media-card {
+            background: rgba(15, 23, 42, 0.6);
+            border-radius: 12px;
+            overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .media-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .media-card img {
+            width: 100%;
+            height: 140px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .media-card .caption {
+            padding: 10px;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+
+        /* --- Form Elements --- */
+        p.intro-text {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 25px;
+            text-align: left;
+        }
+
+        form {
+            text-align: left;
+            margin-bottom: 25px;
+        }
+
+        .form-group {
+            margin-bottom: 18px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        input[type="text"], input[type="email"] {
+            width: 100%;
+            padding: 14px 16px;
+            background: rgba(15, 23, 42, 0.6);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            color: var(--text-main);
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        input[type="text"]:focus, input[type="email"]:focus {
+            outline: none;
+            border-color: var(--accent-color);
+            box-shadow: 0 0 8px rgba(59, 130, 246, 0.3);
+        }
+
+        .submit-btn {
+            width: 100%;
+            background: var(--accent-color);
+            color: var(--text-main);
+            border: none;
+            padding: 16px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background 0.3s ease, transform 0.1s ease;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.3);
+        }
+
+        .submit-btn:hover {
+            background: #2563eb;
+        }
+
+        .rules-box {
+            background: rgba(15, 23, 42, 0.4);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            margin-top: 25px;
+            border-left: 4px solid var(--accent-color);
+        }
+
+        .rules-box h3 {
+            font-size: 1rem;
+            margin-bottom: 12px;
+            color: var(--text-main);
+        }
+
+        .rules-box ul {
+            list-style: none;
+        }
+
+        .rules-box li {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        .rules-box li::before {
+            content: "✓";
+            color: var(--success-green);
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .footer-credit {
+            margin-top: 25px;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .footer-credit a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1. FULL PAGE AD OVERLAY (LOADS ON PAGE OPEN) -->
+    <div id="fullAdOverlay" class="full-ad-overlay">
+        <div class="full-ad-container">
+            <div class="ad-label">Advertisement</div>
+            
+            <!-- Monetag Full-Page/Native Ad Injection Frame -->
+            <div id="monetagFullAdSlot">
+                <!-- Replace this placeholder script/div with your actual Monetag Tag -->
+                <script>
+                    // Monetag Ad Loading Logic or Tag Script
+                </script>
+            </div>
+
+            <!-- Fallback Screen displayed if the Ad fails to load -->
+            <div id="adFallbackBox" class="ad-fallback-box">
+                <h2><i class="fa-solid fa-triangle-exclamation"></i> AD NOT LOADED</h2>
+                <p style="font-size: 0.85rem; color: var(--text-muted);">
+                    The sponsored advertisement could not be retrieved. You may proceed directly to the giveaway.
+                </p>
+            </div>
+
+            <div>
+                <button class="skip-btn" id="skipAdBtn" onclick="closeAdOverlay()">
+                    Skip Ad & Continue <i class="fa-solid fa-arrow-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. CONFIRMATION & SNIPPET OVERLAY MODAL -->
+    <div id="confirmationModal" class="modal-overlay">
+        <div class="modal-container">
+            <h2 style="color: var(--success-green); margin-bottom: 10px;">
+                <i class="fa-solid fa-circle-check"></i> Entry Confirmed!
+            </h2>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">
+                Copy your code snippet and paste is as a comment under the post to participate in the draw. Don't forget to like and share the post.
+            </p>
+
+            <div id="snippetContainer" class="snippet-card"></div>
+
+            <div class="modal-action-btns">
+                <button id="copyBtn" class="action-btn copy-btn" onclick="copySnippetText()">
+                    <i class="fa-regular fa-copy"></i> Copy Snippet
+                </button>
+                <a href="https://fortunateosas.com" class="action-btn home-btn">
+                    <i class="fa-solid fa-house"></i> Go to Home Page
+                </a>
+                <a href="https://facebook.com/fortunateosas492" class="action-btn home-btn">
+                    <i class="fa-brands fa-facebook"></i> Go to Giveway Post
+                </a>                
+            </div>
+        </div>
+    </div>
+
+    <!-- 3. MAIN GIVEAWAY LANDING PAGE CONTENT -->
+    <div class="container">
+        <div class="logo-area">Fortunate<span>Osas</span></div>
+        
+        <h1>Holiday Cash Giveaway</h1>
+        <div class="prize-tag">₦20,000 Cash Prize</div>
+
+        <!-- TOP MONETAG AD BANNER SLOT -->
+        <div class="monetag-ad-wrapper">
+            <div class="ad-label">Sponsored Banner</div>
+            <!-- Monetag Banner Placement Code Here -->
+            <div id="monetag-top-banner"></div>
+        </div>
+
+        <p class="intro-text">
+            Welcome to the official holiday giveaway! Enter your information below to record your official entries. Ensure your Facebook display name matches your profile so we can confirm your actions on drawing day.
+        </p>
+
+        <!-- PICTURE FRAMES: CASH & GIFTS DISPLAY -->
+        <div class="section-title">Giveaway Rewards & Evidence</div>
+        <div class="media-frame-grid">
+            <div class="media-card">
+                <img src="images/Giveway_2.png" alt="Cash Reward Frame">
+                <div class="caption">₦20,000 Cash Draw</div>
+            </div>
+            <div class="media-card">
+                <img src="images/Giveway_1.png" alt="Gift Items Frame">
+                <div class="caption">Single Winner</div>
+            </div>
+        </div>
+
+        <!-- MIDDLE MONETAG AD BANNER SLOT -->
+        <div class="monetag-ad-wrapper">
+            <div class="ad-label">Sponsored Banner</div>
+            <!-- Monetag Native / Native Banner Placement Code Here -->
+            <div id="monetag-middle-banner"></div>
+        </div>
+
+        <!-- RULES BOX -->
+        <div class="rules-box">
+            <h3>To Stay Qualified, Make Sure You:</h3>
+            <ul>
+                <li>Are a friend or follower of my <a href="https://facebook.com/fortunateosas492" style="color: #ffffff;"> Facebook profile</a></li>
+                <li>Liked and comment your entry snippet generated after the form on the giveaway post</li>
+                <li>Shared the post to your timeline</li>
+                <li>Are tracking page updates on December 24th, 2026</li>
+            </ul>
+        </div>
+
+        <br/>
+
+        <!-- ENTRY FORM -->
+        <form id="giveawayForm" onsubmit="processGiveawayForm(event)">
+            <div class="form-group">
+                <label for="user_name">Full Name</label>
+                <input type="text" id="user_name" name="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="user_email">Email Address</label>
+                <input type="email" id="user_email" name="email" placeholder="Enter your email address" required>
+            </div>
+
+            <div class="form-group">
+                <label for="fb_name">Facebook Profile Display Name</label>
+                <input type="text" id="fb_name" name="name" placeholder="e.g. Fortunate Osas" required>
+            </div>
+
+            <button type="submit" id="submitBtn" class="submit-btn">Verify Entry & Submit</button>
+        </form>
+
+        <!-- BOTTOM MONETAG AD BANNER SLOT -->
+        <div class="monetag-ad-wrapper">
+            <div class="ad-label">Sponsored Banner</div>
+            <!-- Monetag In-Feed / Banner Code Here -->
+            <div id="monetag-bottom-banner"></div>
+        </div>
+
+        
+
+        <div class="footer-credit">
+            © 2026 <a href="https://fortunateosas.com" target="_blank">Fortunate Osas</a>. All Rights Reserved.<br>
+            <em>This promotion is not sponsored or endorsed by Meta/Facebook.</em>
+        </div>
+    </div>
+
+    <!-- 4. JAVASCRIPT LOGIC -->
+    <script>
+        // Check ad load status when window initializes
+        window.addEventListener('DOMContentLoaded', () => {
+            const adSlot = document.getElementById('monetagFullAdSlot');
+            const fallbackBox = document.getElementById('adFallbackBox');
+
+            // Timeout checks if the Monetag ad loaded inside the target slot
+            setTimeout(() => {
+                if (!adSlot || adSlot.children.length === 0 || adSlot.offsetHeight === 0) {
+                    fallbackBox.style.display = 'block';
+                }
+            }, 1500);
+        });
+
+        // Close the initial full page ad overlay
+        function closeAdOverlay() {
+            const overlay = document.getElementById('fullAdOverlay');
+            overlay.style.display = 'none';
+        }
+
+        // Helper to generate a 10-digit random alphanumeric string
+        function generateUniqueCode(length = 10) {
+            const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+            let result = '';
+            for (let i = 0; i < length; i++) {
+                result += chars.charAt(Math.floor(Math.random() * chars.length));
+            }
+            return result;
+        }
+
+        // Copy generated snippet text to clipboard
+        function copySnippetText() {
+            const snippetText = document.getElementById('snippetContainer').innerText;
+            navigator.clipboard.writeText(snippetText).then(() => {
+                const copyBtn = document.getElementById('copyBtn');
+                copyBtn.innerHTML = `<i class="fa-solid fa-check"></i> Copied!`;
+                setTimeout(() => {
+                    copyBtn.innerHTML = `<i class="fa-regular fa-copy"></i> Copy Snippet`;
+                }, 4000);
+            }).catch(() => {
+                showTopRightToast("Failed to copy code snippet. Please copy manually.", "error");
+            });
+        }
+
+        // Form processing logic
+        function processGiveawayForm(event) {
+            event.preventDefault();
+
+            // Retrieve Form Inputs
+            const userName = document.getElementById('user_name').value;
+            const userEmail = document.getElementById('user_email').value;
+            const fbUsername = document.getElementById('fb_name').value;
+            const uniqueCode = generateUniqueCode(10);
+
+            // Construct Snippet Output
+            const snippetOutput = `FORTUNATEOSAS492 GIVEWAY ENTRY\n${userName}\n${userEmail}\nFBN - ${fbUsername}\n${uniqueCode}`;
+
+            // Optional: Open Monetag SmartLink in a new tab if provided
+            const monetagSmartLink = "https://YOUR_MONETAG_SMARTLINK_URL_HERE.com";
+            if (monetagSmartLink && !monetagSmartLink.includes("YOUR_MONETAG_SMARTLINK_URL_HERE")) {
+                window.open(monetagSmartLink, '_blank');
+            }
+
+            // Display constructed snippet in Modal Overlay
+            document.getElementById('snippetContainer').innerText = snippetOutput;
+            document.getElementById('confirmationModal').style.display = 'flex';
+
+            // Reset form
+            document.getElementById('giveawayForm').reset();
+        }
+
+        /**
+         * Displays a custom animated toast notification from top-right.
+         * @param {string} message - Text content of the alert.
+         * @param {'success'|'error'|'info'} type - Theme flavor (default: 'success').
+         * @param {number} durationMs - Display duration before sliding out (default: 3500ms).
+         */
+        function showTopRightToast(message, type = 'success', durationMs = 3500) {
+            // 1. Ensure the global container exists on the DOM
+            let container = document.getElementById('toast-container');
+            if (!container) {
+                container = document.createElement('div');
+                container.id = 'toast-container';
+                document.body.appendChild(container);
+            }
+
+            // 2. Create the toast element
+            const toast = document.createElement('div');
+            toast.className = `toast-notification toast-${type}`;
+            
+            // Add text message + manual close button
+            toast.innerHTML = `
+                <span>${message}</span>
+                <button class="toast-close-btn" aria-label="Close notification">&times;</button>
+            `;
+
+            container.appendChild(toast);
+
+            // 3. Trigger entry animation in next animation frame
+            requestAnimationFrame(() => {
+                toast.classList.add('toast-show');
+            });
+
+            // Helper for graceful exit removal
+            const dismissToast = () => {
+                toast.classList.remove('toast-show');
+                toast.addEventListener('transitionend', () => {
+                    toast.remove();
+                }, { once: true });
+            };
+
+            // Manual close trigger on button click
+            toast.querySelector('.toast-close-btn').addEventListener('click', dismissToast);
+
+            // Auto dismiss timer
+            if (durationMs > 0) {
+                setTimeout(dismissToast, durationMs);
+            }
+        }
+    </script>
+</body>
+</html>
+
+THE FILES ATTACHED ARE FOR REFERNCE PURPOSES ONLY
